@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Frostbite</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="moment.js"></script>
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+
+        #center {
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        iframe {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="center">
+
+        <div class="card">
+            <div class="container">
+                <img src="Frostbite.jpeg" alt="Frostbite" style="width:100%">
+                <h2>Vydavatel</h2>
+                <div>EA DICE</div>
+                <h2>zajímavost</h2>
+                <ul>
+                    <li>První hra běžící na Frostbite Battlefield: Bad Company (2008 již
+                        <script>
+                            var date = moment("2008", "YYYY").fromNow();
+                            var date = date.split(" ");
+                            document.write(date[0]);
+                        </script> let).</li>
+                    <li>Poslední verze je Frostbite 3.0 který vyšel roku 2013 s krou battlefield 4. Sice od té doby
+                        nevyšla
+                        nová verze,
+                        ale téměř s kažkou hrou se přidá nějaká menší novinka.</li>
+                    <li>Hru běžící na enginu Frostbite zatím nevidal nikdo jiný než studia z EA</li>
+                </ul>
+                <h2>vlastnosti</h2>
+                <ul>
+                    <li>Napsáno v C++.</li>
+                    <li>Platformy</li>
+                    <ul>
+                        <li>Minecrosoft Windows</li>
+                        <li>Playstation 3 a 4</li>
+                        <li>Xbox 360 a One</li>
+                    </ul>
+                    <li>Licence Proprietární</li>
+                    <li>Velký důraz na ničení okolí s nejnovější funkcí Levolution, která ulehčuje ničení světa</li>
+                    <li>silný důraz je kladen i na audio a od verze Frostbite 2.0 je vybaven také HDR Audiem</li>
+                </ul>
+                <h2>Hry</h2>
+                <ul>
+                    <li>Battlefield: Bad Company a novější</li>
+                    <li>Mirror's Edge Catalyst</li>
+                    <li>FIFA 17 a novjější</li>
+                    <li>Need for Speed: The Run, Rivals a Payback</li>
+                    <li>Mass Effect: Andromeda</li>
+                    <li>Star Wars Battlefront a II</li>
+                    <li>Dragon Age: Inquisition</li>
+                    <li>Plants vs. Zombies: Garden Warfare a 2</li>
+                    <li>Anthem</li>
+                </ul>
+                <h2>Ukázka vývoje enginu</h2>
+                <iframe src="https://www.youtube-nocookie.com/embed/r8iBzCi-UWE?controls=0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                    autoplay></iframe>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
